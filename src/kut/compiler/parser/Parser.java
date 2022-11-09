@@ -297,7 +297,7 @@ public class Parser
 
 		t2 = this.getCurrentToken();
 		if (t2.getC() != ';') {
-			throw new SyntaxErrorException("expected ';' but found: " + t.getL());
+			throw new SyntaxErrorException("expected ';' but found: " + t2);
 		}
 		this.consumeCurrentToken();
 		
@@ -325,7 +325,7 @@ public class Parser
 		
 		t2 = this.getCurrentToken();
 		if (t2.getC() != ';') {
-			throw new SyntaxErrorException("expected ';' but found: " + t.getL());
+			throw new SyntaxErrorException("expected ';' but found: " + t2);
 		}
 		this.consumeCurrentToken();
 
@@ -360,7 +360,7 @@ public class Parser
 		
 		t2 = this.getCurrentToken();
 		if (t2.getC() != ';') {
-			throw new SyntaxErrorException("expected ';' but found: " + t.getL());
+			throw new SyntaxErrorException("expected ';' but found: " + t2);
 		}
 		this.consumeCurrentToken();
 		
@@ -394,7 +394,7 @@ public class Parser
 		
 		t2 = this.getCurrentToken();
 		if (t2.getC() != ';') {
-			throw new SyntaxErrorException("expected ';' but found: " + t.getL());
+			throw new SyntaxErrorException("expected ';' but found: " + t2);
 		}
 		this.consumeCurrentToken();
 		
